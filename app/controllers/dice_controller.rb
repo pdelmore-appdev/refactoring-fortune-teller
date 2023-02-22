@@ -10,7 +10,7 @@ class DiceController < ApplicationController
     @array_of_rolls.push(rand(@num_faces.to_i) + 1)
     end
 
-    render({ :template => "dice_templates/infinity.html.erb" })
+    render({ :template => "infinity.html.erb" })
   end
 
   

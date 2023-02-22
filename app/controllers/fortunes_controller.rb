@@ -20,7 +20,7 @@ all_zodiacs = Zodiac.list
 
 end
 
-  render({ :template => "dice_templates/infinity_horoscopes.html.erb" })
+  render({ :template => "/infinity_horoscopes.html.erb" })
 end
 
 
